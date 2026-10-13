@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-accd37ec-b4e7-494f-9e94-df74eee5a046</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-09-01T09:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Malaria upsurge risk</event>
+    <responseType>Execute</responseType>
+    <urgency>Expected</urgency>
+    <severity>Severe</severity>
+    <certainty>Likely</certainty>
+    <expires>2026-10-02T09:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>ALERT: malaria upsurge likely in Oyam District (2026-09)</headline>
+    <description>Rainfall last month 288 mm. Forecast 42,831 confirmed cases against an epidemic threshold of 28,369 (probability of exceeding 83%). SIMULATED DATA - EXERCISE.</description>
+    <instruction>District Health Team: check ACT and RDT stocks, intensify case management and vector control, report weekly.</instruction>
+    <area>
+      <areaDesc>Oyam District, Northern Region, Uganda</areaDesc>
+      <polygon>2.5160,32.8229 2.4749,32.8111 2.4472,32.7760 2.4634,32.6904 2.3747,32.6213 2.3637,32.5817 2.2458,32.6030 2.2049,32.5618 2.0506,32.4707 2.0410,32.4227 2.0727,32.3468 2.1259,32.3205 2.1959,32.3103 2.2568,32.2601 2.3368,32.2414 2.4605,32.2420 2.4784,32.4400 2.6080,32.4860 2.6220,32.5721 2.5786,32.7753 2.5160,32.8229</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>UG-D098</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

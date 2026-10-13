@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-9d497957-7cf6-4f4d-a35f-3f9af2d8d12f</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-09-01T09:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Malaria upsurge risk</event>
+    <responseType>Execute</responseType>
+    <urgency>Expected</urgency>
+    <severity>Severe</severity>
+    <certainty>Likely</certainty>
+    <expires>2026-10-02T09:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>ALERT: malaria upsurge likely in Yumbe District (2026-09)</headline>
+    <description>Rainfall last month 272 mm. Forecast 19,508 confirmed cases against an epidemic threshold of 10,924 (probability of exceeding 91%). SIMULATED DATA - EXERCISE.</description>
+    <instruction>District Health Team: check ACT and RDT stocks, intensify case management and vector control, report weekly.</instruction>
+    <area>
+      <areaDesc>Yumbe District, Northern Region, Uganda</areaDesc>
+      <polygon>3.6561,31.5237 3.6898,31.5648 3.6970,31.6139 3.6322,31.5868 3.4580,31.4637 3.2193,31.4607 3.1447,31.5245 3.1186,31.5124 3.1307,31.4242 3.2193,31.3985 3.2300,31.3478 3.2698,31.3170 3.2843,31.2662 3.3349,31.2055 3.3481,31.1510 3.2979,31.1031 3.2922,31.0748 3.3130,31.0537 3.5328,31.0371 3.6644,31.0517 3.7317,31.0687 3.7851,31.1415 3.7924,31.2148 3.7742,31.2950 3.6561,31.5237</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>UG-D111</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

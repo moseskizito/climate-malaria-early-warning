@@ -1,0 +1,3 @@
+model,epidemic_months,detected,missed,hit_rate,false_alarm_ratio
+seasonal only (no climate),452,60,392,0.13,0.74
+"climate-informed (rain lag 1-2, temperature)",452,133,319,0.29,0.48

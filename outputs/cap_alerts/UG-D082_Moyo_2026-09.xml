@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-0a5a2d2a-49dc-4d2d-a193-e030ba989e23</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-09-01T09:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Malaria upsurge risk</event>
+    <responseType>Execute</responseType>
+    <urgency>Expected</urgency>
+    <severity>Severe</severity>
+    <certainty>Likely</certainty>
+    <expires>2026-10-02T09:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>ALERT: malaria upsurge likely in Moyo District (2026-09)</headline>
+    <description>Rainfall last month 257 mm. Forecast 52,847 confirmed cases against an epidemic threshold of 41,460 (probability of exceeding 71%). SIMULATED DATA - EXERCISE.</description>
+    <instruction>District Health Team: check ACT and RDT stocks, intensify case management and vector control, report weekly.</instruction>
+    <area>
+      <areaDesc>Moyo District, Northern Region, Uganda</areaDesc>
+      <polygon>3.8164,31.7779 3.7043,31.9019 3.5984,31.9300 3.5864,32.0222 3.5634,31.9583 3.4995,31.9084 3.5222,31.8131 3.5352,31.8152 3.4975,31.7486 3.4864,31.6933 3.4538,31.6642 3.3876,31.6462 3.3345,31.5970 3.1447,31.5245 3.2193,31.4607 3.4580,31.4637 3.6322,31.5868 3.6970,31.6139 3.7128,31.6868 3.8164,31.7779</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>UG-D082</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

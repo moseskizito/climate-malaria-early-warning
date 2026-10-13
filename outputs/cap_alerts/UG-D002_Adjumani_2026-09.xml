@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-458a2640-dd23-42f8-8659-074548c6d1b3</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-09-01T09:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Malaria upsurge risk</event>
+    <responseType>Prepare</responseType>
+    <urgency>Expected</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <expires>2026-10-02T09:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>WARNING: malaria upsurge likely in Adjumani District (2026-09)</headline>
+    <description>Rainfall last month 185 mm. Forecast 8,193 confirmed cases against an epidemic threshold of 7,986 (probability of exceeding 48%). SIMULATED DATA - EXERCISE.</description>
+    <instruction>District Health Team: check ACT and RDT stocks, intensify case management and vector control, report weekly.</instruction>
+    <area>
+      <areaDesc>Adjumani District, Northern Region, Uganda</areaDesc>
+      <polygon>3.5864,32.0222 3.5596,32.0542 3.4162,32.0493 3.3767,32.0285 3.3211,32.0416 3.2851,32.0218 3.2242,32.0189 3.1768,31.9815 3.0362,31.9309 2.9741,31.7307 2.9574,31.6251 2.8691,31.5550 2.8968,31.4887 2.9444,31.4435 2.9555,31.4022 2.9938,31.4154 3.1186,31.5124 3.3345,31.5970 3.3876,31.6462 3.4538,31.6642 3.4864,31.6933 3.4975,31.7486 3.5352,31.8152 3.5222,31.8131 3.4995,31.9084 3.5634,31.9583 3.5864,32.0222</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>UG-D002</value>
+      </geocode>
+    </area>
+  </info>
+</alert>
