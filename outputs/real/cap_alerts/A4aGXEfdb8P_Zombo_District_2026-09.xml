@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-8ef2d0f2-2eae-41a1-8340-4c7ac61ef1df</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-09-01T09:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Malaria upsurge risk</event>
+    <responseType>Prepare</responseType>
+    <urgency>Expected</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <expires>2026-10-02T09:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>WARNING: malaria upsurge likely in Zombo District (2026-09)</headline>
+    <description>Rainfall last month 130 mm. Forecast 5,564 confirmed cases against an epidemic threshold of 5,536 (probability of exceeding 45%). EXERCISE.</description>
+    <instruction>District Health Team: check ACT and RDT stocks, intensify case management and vector control, report weekly.</instruction>
+    <area>
+      <areaDesc>Zombo District, West Nile, Uganda</areaDesc>
+      <polygon>2.7110,30.9585 2.6925,30.9462 2.7048,30.9381 2.6977,30.9193 2.6703,30.9119 2.6750,30.8583 2.6520,30.8002 2.6010,30.7792 2.5834,30.7508 2.5072,30.7625 2.4513,30.7408 2.4168,30.7524 2.4359,30.7793 2.4239,30.8349 2.3387,30.8819 2.3286,30.9113 2.3408,30.9425 2.3979,30.9555 2.4029,30.9930 2.3859,31.0158 2.4781,31.0514 2.4945,31.0755 2.5001,31.0395 2.5222,31.0219 2.5201,30.9911 2.5530,30.9941 2.5752,31.0205 2.5956,30.9847 2.6573,30.9839 2.7110,30.9585</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>A4aGXEfdb8P</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

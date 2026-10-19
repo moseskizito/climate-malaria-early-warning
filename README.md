@@ -52,8 +52,12 @@ Adding climate more than doubles the hit rate and cuts false alarms. Many exceed
 
 ```bash
 pip install -r requirements.txt
-python run_pipeline.py       # writes outputs/: NetCDF grid, CSV, GeoJSON, maps, cap_alerts/*.xml
-pytest -q                    # 6 tests: zonal stats, highland temperatures, lag, model effect, probabilities, CAP
+python run_pipeline.py       # writes outputs/ (NetCDF grid, CSV, GeoJSON, maps, cap_alerts/*.xml, index.html)
+                             # then serves the results at http://localhost:8000 (Ctrl+C to stop)
+python run_pipeline.py --open      # same, and opens the browser
+python run_pipeline.py --no-serve  # run only; outputs/index.html can still be opened directly
+python run_pipeline.py --data real # real DHIS2 cases, census population, CHIRPS and ERA5 (data/REAL_DATA.md)
+pytest -q                    # 11 tests: zonal stats, highland temperatures, lag, model effect, probabilities, CAP
 ```
 
 PostGIS (tested on PostgreSQL 16 with PostGIS 3):

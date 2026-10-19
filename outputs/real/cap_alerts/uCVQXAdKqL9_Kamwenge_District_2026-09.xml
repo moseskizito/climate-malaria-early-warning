@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-0eaaffa2-7398-44ed-86de-2bfadd048257</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-09-01T09:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Malaria upsurge risk</event>
+    <responseType>Prepare</responseType>
+    <urgency>Expected</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <expires>2026-10-02T09:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>WARNING: malaria upsurge likely in Kamwenge District (2026-09)</headline>
+    <description>Rainfall last month 71 mm. Forecast 12,395 confirmed cases against an epidemic threshold of 14,358 (probability of exceeding 30%). EXERCISE.</description>
+    <instruction>District Health Team: check ACT and RDT stocks, intensify case management and vector control, report weekly.</instruction>
+    <area>
+      <areaDesc>Kamwenge District, Tooro, Uganda</areaDesc>
+      <polygon>0.1044,30.4721 0.0974,30.4941 0.1455,30.5478 0.1657,30.6257 0.2101,30.6693 0.1938,30.7616 0.3184,30.8222 0.3376,30.8505 0.4008,30.8519 0.4714,30.7560 0.4653,30.6968 0.3774,30.6358 0.3727,30.5942 0.3447,30.5586 0.3689,30.5654 0.4261,30.5250 0.4548,30.5477 0.5009,30.4968 0.5417,30.5073 0.5742,30.4688 0.5505,30.4288 0.4977,30.3740 0.4463,30.3787 0.4196,30.3584 0.3714,30.3927 0.3082,30.3690 0.2817,30.3887 0.2667,30.2943 0.2110,30.2861 0.1696,30.3284 0.1445,30.3826 0.1400,30.4142 0.1607,30.4169 0.1605,30.4497 0.1264,30.4794 0.1044,30.4721</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>uCVQXAdKqL9</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

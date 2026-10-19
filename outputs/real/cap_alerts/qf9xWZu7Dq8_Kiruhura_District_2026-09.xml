@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-eb3deffe-6499-4529-8b6f-2b681d72fe18</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-09-01T09:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Malaria upsurge risk</event>
+    <responseType>Prepare</responseType>
+    <urgency>Expected</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <expires>2026-10-02T09:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>WARNING: malaria upsurge likely in Kiruhura District (2026-09)</headline>
+    <description>Rainfall last month 33 mm. Forecast 2,868 confirmed cases against an epidemic threshold of 2,818 (probability of exceeding 46%). EXERCISE.</description>
+    <instruction>District Health Team: check ACT and RDT stocks, intensify case management and vector control, report weekly.</instruction>
+    <area>
+      <areaDesc>Kiruhura District, Ankole, Uganda</areaDesc>
+      <polygon>-0.6781,30.8763 -0.7000,30.9417 -0.6813,31.0582 -0.6394,31.0702 -0.6565,31.0857 -0.6108,31.0760 -0.6113,31.0908 -0.5769,31.0995 -0.5837,31.1211 -0.5603,31.1036 -0.5455,31.1333 -0.5301,31.1270 -0.5291,31.1412 -0.4900,31.1547 -0.4408,31.1530 -0.4036,31.1242 -0.2421,31.0684 -0.1253,31.0986 -0.0544,31.0986 -0.0239,31.0758 -0.0361,31.0265 -0.0257,31.0236 0.0150,31.0585 0.0614,31.0546 0.0244,31.0008 0.0136,30.9420 0.0248,30.9134 -0.0572,30.9433 -0.0733,30.9150 -0.1043,30.9052 -0.0984,30.8489 -0.1154,30.8135 -0.1467,30.7925 -0.1533,30.7442 -0.1230,30.6942 -0.1273,30.6550 -0.2084,30.6084 -0.2345,30.6250 -0.2956,30.6124 -0.3478,30.6758 -0.3846,30.6801 -0.3898,30.6965 -0.4244,30.6847 -0.4406,30.7053 -0.4355,30.7312 -0.4938,30.7933 -0.5110,30.7818 -0.5113,30.8209 -0.5689,30.7778 -0.6078,30.7868 -0.6360,30.8568 -0.6781,30.8763</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>qf9xWZu7Dq8</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

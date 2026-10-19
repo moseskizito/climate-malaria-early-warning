@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-  <identifier>UG-EWS-98d8c96f-ba05-4af0-ba4c-18f8b47eaaa3</identifier>
+  <identifier>UG-EWS-3611d6ba-5fb4-452e-80c4-99f377d445dd</identifier>
   <sender>situationroom@opm.go.ug.example</sender>
   <sent>2026-09-01T09:00:00+03:00</sent>
   <status>Exercise</status>
@@ -20,7 +20,7 @@
     <description>Rainfall last month 201 mm. Forecast 15,211 confirmed cases against an epidemic threshold of 10,261 (probability of exceeding 82%). SIMULATED DATA - EXERCISE.</description>
     <instruction>District Health Team: check ACT and RDT stocks, intensify case management and vector control, report weekly.</instruction>
     <area>
-      <areaDesc>Nwoya District, Northern Region, Uganda</areaDesc>
+      <areaDesc>Nwoya District, Northern, Uganda</areaDesc>
       <polygon>2.4696,32.3624 2.4605,32.2420 2.3368,32.2414 2.2568,32.2601 2.2573,32.2141 2.2306,32.1799 2.2915,32.0161 2.3539,31.9306 2.3672,31.8789 2.3461,31.8032 2.2983,31.7554 2.2666,31.6611 2.2735,31.5311 2.1796,31.3457 2.2628,31.3396 2.3023,31.3764 2.3555,31.4669 2.4451,31.4800 2.4897,31.5275 2.5092,31.5247 2.5043,31.4953 2.5192,31.4778 2.6173,31.4235 2.6302,31.4674 2.7117,31.5454 2.7330,31.5879 2.7330,31.7049 2.7968,31.7474 2.8003,31.9849 2.7791,32.0203 2.7755,32.1018 2.7295,32.2011 2.6439,32.1623 2.6135,32.1764 2.5927,32.2675 2.5145,32.2854 2.4696,32.3624</polygon>
       <geocode>
         <valueName>UG-DISTRICT</valueName>

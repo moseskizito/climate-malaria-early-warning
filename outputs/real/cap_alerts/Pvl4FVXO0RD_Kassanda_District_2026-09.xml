@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-65d9c421-0b93-477d-9c4c-ab2c0812ecf7</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-09-01T09:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Malaria upsurge risk</event>
+    <responseType>Prepare</responseType>
+    <urgency>Expected</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <expires>2026-10-02T09:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>WARNING: malaria upsurge likely in Kassanda District (2026-09)</headline>
+    <description>Rainfall last month 77 mm. Forecast 4,558 confirmed cases against an epidemic threshold of 4,971 (probability of exceeding 36%). EXERCISE.</description>
+    <instruction>District Health Team: check ACT and RDT stocks, intensify case management and vector control, report weekly.</instruction>
+    <area>
+      <areaDesc>Kassanda District, North Central, Uganda</areaDesc>
+      <polygon>0.2434,31.7298 0.3965,31.8571 0.4278,31.9580 0.5171,31.9184 0.5689,31.9148 0.5920,31.8804 0.6551,31.9229 0.7107,31.8893 0.7430,31.9111 0.7736,31.8381 0.7772,31.7873 0.8027,31.7653 0.7941,31.7009 0.8212,31.6650 0.7607,31.6360 0.7504,31.5940 0.7326,31.5822 0.6990,31.6060 0.6976,31.5817 0.6449,31.5790 0.6370,31.5633 0.4614,31.6293 0.3677,31.5703 0.3337,31.6060 0.3325,31.6283 0.2954,31.6559 0.2852,31.6997 0.2434,31.7298</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>Pvl4FVXO0RD</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

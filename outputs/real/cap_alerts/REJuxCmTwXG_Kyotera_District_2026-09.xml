@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-36aec81f-01db-4834-820c-dfc41bdfb9ad</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-09-01T09:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Malaria upsurge risk</event>
+    <responseType>Prepare</responseType>
+    <urgency>Expected</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <expires>2026-10-02T09:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>WARNING: malaria upsurge likely in Kyotera District (2026-09)</headline>
+    <description>Rainfall last month 19 mm. Forecast 5,445 confirmed cases against an epidemic threshold of 4,965 (probability of exceeding 53%). EXERCISE.</description>
+    <instruction>District Health Team: check ACT and RDT stocks, intensify case management and vector control, report weekly.</instruction>
+    <area>
+      <areaDesc>Kyotera District, South Central, Uganda</areaDesc>
+      <polygon>-0.9326,31.5604 -1.0013,31.5878 -0.9994,31.8001 -0.9753,31.7944 -0.9620,31.8090 -0.8701,31.8054 -0.8464,31.7802 -0.8528,31.7538 -0.8374,31.7390 -0.7397,31.7618 -0.7107,31.7286 -0.6250,31.6798 -0.5487,31.6833 -0.5331,31.7082 -0.4996,31.6582 -0.4439,31.6573 -0.4313,31.5962 -0.4823,31.5639 -0.5625,31.4385 -0.5981,31.4400 -0.6145,31.4760 -0.6658,31.4895 -0.7028,31.5197 -0.7349,31.5061 -0.7364,31.4787 -0.8074,31.4874 -0.8039,31.5321 -0.7755,31.5626 -0.7860,31.5760 -0.8880,31.5853 -0.9326,31.5604</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>REJuxCmTwXG</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

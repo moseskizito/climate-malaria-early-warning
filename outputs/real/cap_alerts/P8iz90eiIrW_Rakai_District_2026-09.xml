@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-24815884-d981-4c0b-bd05-ff0a94d5e874</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-09-01T09:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Malaria upsurge risk</event>
+    <responseType>Execute</responseType>
+    <urgency>Expected</urgency>
+    <severity>Severe</severity>
+    <certainty>Likely</certainty>
+    <expires>2026-10-02T09:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>ALERT: malaria upsurge likely in Rakai District (2026-09)</headline>
+    <description>Rainfall last month 13 mm. Forecast 7,556 confirmed cases against an epidemic threshold of 5,119 (probability of exceeding 76%). EXERCISE.</description>
+    <instruction>District Health Team: check ACT and RDT stocks, intensify case management and vector control, report weekly.</instruction>
+    <area>
+      <areaDesc>Rakai District, South Central, Uganda</areaDesc>
+      <polygon>-0.9993,31.2708 -0.9999,31.4509 -0.9515,31.4525 -0.9533,31.5048 -0.9475,31.4955 -0.9344,31.5095 -0.9326,31.5604 -0.8644,31.5858 -0.7860,31.5760 -0.7755,31.5626 -0.8039,31.5321 -0.7990,31.4831 -0.7364,31.4787 -0.7349,31.5061 -0.7028,31.5197 -0.6658,31.4895 -0.6145,31.4760 -0.5750,31.3890 -0.5271,31.3608 -0.4934,31.3141 -0.4566,31.2193 -0.4953,31.1755 -0.4910,31.1589 -0.5361,31.1557 -0.5373,31.1414 -0.6652,31.0919 -0.6970,31.1807 -0.6766,31.1959 -0.6726,31.2117 -0.6597,31.2164 -0.6639,31.2270 -0.5994,31.2380 -0.6268,31.2468 -0.5995,31.2846 -0.6426,31.2679 -0.6488,31.2469 -0.6624,31.2727 -0.6862,31.2498 -0.6910,31.2746 -0.6939,31.2718 -0.7018,31.2652 -0.7130,31.2666 -0.6739,31.2208 -0.6928,31.2194 -0.6834,31.1966 -0.6995,31.1855 -0.7067,31.1549 -0.7580,31.2000 -0.8220,31.1923 -0.8475,31.2277 -0.8877,31.2035 -0.9497,31.2709 -0.9993,31.2708</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>P8iz90eiIrW</value>
+      </geocode>
+    </area>
+  </info>
+</alert>
