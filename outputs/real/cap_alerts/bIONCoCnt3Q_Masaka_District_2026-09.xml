@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-d530a981-92d9-40da-aa56-668093aa0cea</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-09-01T09:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Malaria upsurge risk</event>
+    <responseType>Execute</responseType>
+    <urgency>Expected</urgency>
+    <severity>Severe</severity>
+    <certainty>Likely</certainty>
+    <expires>2026-10-02T09:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>ALERT: malaria upsurge likely in Masaka District (2026-09)</headline>
+    <description>Rainfall last month 20 mm. Forecast 1,005 confirmed cases against an epidemic threshold of 802 (probability of exceeding 64%). EXERCISE.</description>
+    <instruction>District Health Team: check ACT and RDT stocks, intensify case management and vector control, report weekly.</instruction>
+    <area>
+      <areaDesc>Masaka District, South Central, Uganda</areaDesc>
+      <polygon>-0.4596,31.6677 -0.5079,31.6636 -0.5336,31.7092 -0.5487,31.6845 -0.6255,31.6808 -0.7397,31.7618 -0.6408,31.8352 -0.6259,31.8155 -0.5826,31.8171 -0.4913,31.8646 -0.3842,31.9686 -0.3036,32.0125 -0.2978,32.0388 -0.3189,32.0454 -0.2747,32.0362 -0.2641,32.0218 -0.2547,32.0244 -0.2412,31.9948 -0.2005,31.9989 -0.1685,31.9798 -0.2088,31.9376 -0.1872,31.9455 -0.2145,31.9202 -0.2220,31.8875 -0.2548,31.8749 -0.2625,31.8491 -0.3601,31.8745 -0.3456,31.8966 -0.3642,31.9323 -0.3906,31.8787 -0.3582,31.8698 -0.3366,31.7786 -0.3737,31.7484 -0.3666,31.7254 -0.4390,31.6986 -0.4596,31.6677</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>bIONCoCnt3Q</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

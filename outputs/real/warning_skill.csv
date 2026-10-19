@@ -1,0 +1,6 @@
+model,epidemic_months,detected,missed,hit_rate,false_alarm_ratio,csi,auc
+"seasonal only, no trend",42,0,42,0.0,1.0,0.0,0.684
+climate + trend (previous model),42,1,41,0.02,0.93,0.018,0.702
++ recent cases,42,1,41,0.02,0.96,0.015,0.746
+final without climate,42,0,42,0.0,1.0,0.0,0.721
++ calibrated cut-offs (final),42,1,41,0.02,0.96,0.015,0.746

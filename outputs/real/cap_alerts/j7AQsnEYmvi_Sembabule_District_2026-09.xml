@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-53afa886-b0a4-40f2-927d-b831e0c18da3</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-09-01T09:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Malaria upsurge risk</event>
+    <responseType>Prepare</responseType>
+    <urgency>Expected</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <expires>2026-10-02T09:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>WARNING: malaria upsurge likely in Sembabule District (2026-09)</headline>
+    <description>Rainfall last month 38 mm. Forecast 4,087 confirmed cases against an epidemic threshold of 4,038 (probability of exceeding 45%). EXERCISE.</description>
+    <instruction>District Health Team: check ACT and RDT stocks, intensify case management and vector control, report weekly.</instruction>
+    <area>
+      <areaDesc>Sembabule District, South Central, Uganda</areaDesc>
+      <polygon>0.0500,31.6009 0.0857,31.5405 0.0575,31.5254 0.1093,31.5307 0.1634,31.4197 0.1984,31.4065 0.2077,31.3713 0.2019,31.3023 0.1621,31.2620 0.1987,31.1917 0.2353,31.1582 0.2036,31.0801 0.1983,31.0134 0.1689,31.0164 0.1423,31.0497 0.1165,31.0568 0.0855,31.0428 0.0150,31.0585 -0.0098,31.0299 -0.0361,31.0265 -0.0239,31.0758 -0.0439,31.0915 -0.0304,31.1635 -0.0495,31.2065 -0.0695,31.2068 -0.1100,31.3243 -0.1838,31.3316 -0.3017,31.2881 -0.3459,31.3842 -0.3169,31.4228 -0.3126,31.5256 -0.3400,31.5252 -0.3357,31.5455 -0.3195,31.5472 -0.3256,31.5896 -0.2848,31.5960 -0.1728,31.5466 -0.1266,31.5531 -0.0354,31.5348 0.0004,31.5425 0.0500,31.6009</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>j7AQsnEYmvi</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

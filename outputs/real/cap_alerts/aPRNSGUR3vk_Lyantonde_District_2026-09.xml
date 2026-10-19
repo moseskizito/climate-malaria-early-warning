@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-07d08e8f-8246-4dce-8145-46992caa5170</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-09-01T09:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Malaria upsurge risk</event>
+    <responseType>Prepare</responseType>
+    <urgency>Expected</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <expires>2026-10-02T09:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>WARNING: malaria upsurge likely in Lyantonde District (2026-09)</headline>
+    <description>Rainfall last month 30 mm. Forecast 1,752 confirmed cases against an epidemic threshold of 1,536 (probability of exceeding 56%). EXERCISE.</description>
+    <instruction>District Health Team: check ACT and RDT stocks, intensify case management and vector control, report weekly.</instruction>
+    <area>
+      <areaDesc>Lyantonde District, South Central, Uganda</areaDesc>
+      <polygon>-0.4877,31.1610 -0.4849,31.1686 -0.4898,31.1740 -0.4788,31.1894 -0.4799,31.1914 -0.4640,31.2022 -0.4566,31.2193 -0.4385,31.2116 -0.4162,31.1939 -0.4202,31.1858 -0.4173,31.1702 -0.4126,31.1677 -0.4009,31.1764 -0.3798,31.1792 -0.3736,31.1869 -0.3685,31.1875 -0.3605,31.1948 -0.3440,31.2178 -0.3314,31.2284 -0.3234,31.2285 -0.3187,31.2318 -0.3236,31.2621 -0.3119,31.2813 -0.3017,31.2881 -0.2828,31.2947 -0.2678,31.2935 -0.2502,31.3040 -0.2122,31.3145 -0.1982,31.3270 -0.1838,31.3316 -0.1466,31.3315 -0.1100,31.3243 -0.0964,31.2684 -0.0716,31.2166 -0.0695,31.2068 -0.0495,31.2065 -0.0360,31.1610 -0.0304,31.1635 -0.0306,31.1271 -0.0408,31.1165 -0.0397,31.1010 -0.0439,31.0915 -0.0544,31.0986 -0.0774,31.0990 -0.0869,31.1024 -0.1253,31.0986 -0.1928,31.0797 -0.2094,31.0707 -0.2210,31.0752 -0.2421,31.0684 -0.3047,31.0822 -0.3275,31.0923 -0.3391,31.1033 -0.3752,31.1154 -0.3911,31.1247 -0.4036,31.1242 -0.4202,31.1324 -0.4408,31.1530 -0.4900,31.1547 -0.4877,31.1610</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>aPRNSGUR3vk</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

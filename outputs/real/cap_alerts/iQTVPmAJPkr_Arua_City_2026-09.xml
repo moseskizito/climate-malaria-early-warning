@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-6b38b9e7-ba72-4276-9556-5ae53df30ba5</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-09-01T09:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Malaria upsurge risk</event>
+    <responseType>Prepare</responseType>
+    <urgency>Expected</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <expires>2026-10-02T09:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>WARNING: malaria upsurge likely in Arua City (2026-09)</headline>
+    <description>Rainfall last month 108 mm. Forecast 5,450 confirmed cases against an epidemic threshold of 5,600 (probability of exceeding 42%). EXERCISE.</description>
+    <instruction>District Health Team: check ACT and RDT stocks, intensify case management and vector control, report weekly.</instruction>
+    <area>
+      <areaDesc>Arua City, West Nile, Uganda</areaDesc>
+      <polygon>3.0440,31.0180 3.0821,30.9995 3.0782,30.9669 3.0998,30.9653 3.0980,30.9494 3.1215,30.9335 3.1352,30.8724 3.1180,30.8321 3.1332,30.8029 3.0666,30.7951 3.0494,30.7687 3.0199,30.7818 3.0005,30.8248 2.9608,30.8548 2.9772,30.8646 2.9768,30.9587 3.0047,31.0183 2.9924,31.0394 3.0235,31.1068 3.0150,31.1246 3.0459,31.0863 3.0440,31.0180</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>iQTVPmAJPkr</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

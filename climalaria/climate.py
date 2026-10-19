@@ -67,5 +67,5 @@ def district_means(ds: xr.Dataset, districts: gpd.GeoDataFrame) -> pd.DataFrame:
     P, T = ds.precip.values, ds.t2m.values
     for code, (iy, ix) in groups.items():
         rows.append(pd.DataFrame({"district_code": code, "month": ds.time.values,
-                                  "rain_mm": P[:, iy, ix].mean(axis=1), "temp_c": T[:, iy, ix].mean(axis=1)}))
+                                  "rain_mm": np.nanmean(P[:, iy, ix], axis=1), "temp_c": np.nanmean(T[:, iy, ix], axis=1)}))
     return pd.concat(rows, ignore_index=True)

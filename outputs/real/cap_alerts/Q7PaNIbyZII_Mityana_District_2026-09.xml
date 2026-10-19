@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-b61eb641-8888-496f-84bf-9cf75488daf8</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-09-01T09:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Malaria upsurge risk</event>
+    <responseType>Prepare</responseType>
+    <urgency>Expected</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <expires>2026-10-02T09:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>WARNING: malaria upsurge likely in Mityana District (2026-09)</headline>
+    <description>Rainfall last month 91 mm. Forecast 7,598 confirmed cases against an epidemic threshold of 7,581 (probability of exceeding 44%). EXERCISE.</description>
+    <instruction>District Health Team: check ACT and RDT stocks, intensify case management and vector control, report weekly.</instruction>
+    <area>
+      <areaDesc>Mityana District, North Central, Uganda</areaDesc>
+      <polygon>0.4278,31.9580 0.3989,32.0423 0.3754,32.0315 0.3513,32.0440 0.2915,31.9812 0.2671,31.9219 0.2429,31.9320 0.2863,31.8545 0.2483,31.8438 0.2122,31.9127 0.2316,31.9314 0.2209,31.9563 0.2466,31.9996 0.2441,32.0282 0.2639,32.0290 0.2733,32.0767 0.2975,32.0895 0.2825,32.1288 0.2504,32.1533 0.2534,32.1847 0.3037,32.1983 0.2818,32.2213 0.3175,32.2681 0.4059,32.2544 0.4356,32.2152 0.4801,32.1922 0.5318,32.1985 0.5903,32.2345 0.6376,32.1895 0.6822,32.1717 0.6943,32.1375 0.6520,32.0332 0.6042,32.0137 0.6594,31.9887 0.6208,31.9032 0.5920,31.8804 0.5689,31.9148 0.5171,31.9184 0.4278,31.9580</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>Q7PaNIbyZII</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

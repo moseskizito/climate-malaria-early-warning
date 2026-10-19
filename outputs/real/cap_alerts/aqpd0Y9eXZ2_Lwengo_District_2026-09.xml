@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-e52838f4-597b-49fb-b476-009ae6029d0d</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-09-01T09:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Malaria upsurge risk</event>
+    <responseType>Prepare</responseType>
+    <urgency>Expected</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <expires>2026-10-02T09:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>WARNING: malaria upsurge likely in Lwengo District (2026-09)</headline>
+    <description>Rainfall last month 20 mm. Forecast 3,362 confirmed cases against an epidemic threshold of 2,919 (probability of exceeding 57%). EXERCISE.</description>
+    <instruction>District Health Team: check ACT and RDT stocks, intensify case management and vector control, report weekly.</instruction>
+    <area>
+      <areaDesc>Lwengo District, South Central, Uganda</areaDesc>
+      <polygon>-0.3043,31.7123 -0.2957,31.5973 -0.3256,31.5896 -0.3195,31.5472 -0.3357,31.5455 -0.3400,31.5252 -0.3126,31.5256 -0.3169,31.4228 -0.3459,31.3842 -0.3017,31.2881 -0.3236,31.2621 -0.3187,31.2318 -0.4126,31.1677 -0.4162,31.1939 -0.4566,31.2193 -0.4579,31.2441 -0.4846,31.2682 -0.4934,31.3141 -0.5271,31.3608 -0.5750,31.3890 -0.5981,31.4400 -0.5565,31.4426 -0.4769,31.5696 -0.4313,31.5962 -0.3677,31.5848 -0.3877,31.6394 -0.3748,31.7003 -0.3454,31.7093 -0.3237,31.6951 -0.3193,31.7146 -0.3043,31.7123</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>aqpd0Y9eXZ2</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

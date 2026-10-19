@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-e4f4efdf-61e5-4193-9cc2-187f70042807</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-09-01T09:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Malaria upsurge risk</event>
+    <responseType>Prepare</responseType>
+    <urgency>Expected</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <expires>2026-10-02T09:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>WARNING: malaria upsurge likely in Kyankwanzi District (2026-09)</headline>
+    <description>Rainfall last month 134 mm. Forecast 3,802 confirmed cases against an epidemic threshold of 4,142 (probability of exceeding 37%). EXERCISE.</description>
+    <instruction>District Health Team: check ACT and RDT stocks, intensify case management and vector control, report weekly.</instruction>
+    <area>
+      <areaDesc>Kyankwanzi District, North Central, Uganda</areaDesc>
+      <polygon>1.2704,31.4008 1.2386,31.3678 1.2369,31.3188 1.2082,31.2925 1.1579,31.3781 1.1587,31.4161 1.0788,31.4629 1.0282,31.5271 0.9878,31.5092 0.9492,31.4326 0.8943,31.4540 0.8650,31.4494 0.8546,31.5746 0.8158,31.6546 0.8484,31.6779 0.8882,31.6787 0.8792,31.7464 0.9379,31.7531 0.9834,31.8116 1.0349,31.8459 1.0403,31.8764 1.0835,31.9066 1.2054,31.9102 1.3591,31.8215 1.3232,31.7390 1.3616,31.5309 1.3066,31.4630 1.2739,31.4495 1.2704,31.4008</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>IVuiLJYABw6</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

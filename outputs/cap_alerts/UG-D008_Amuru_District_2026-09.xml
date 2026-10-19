@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-  <identifier>UG-EWS-7fd49614-166b-4d9b-9905-966b7bbcf673</identifier>
+  <identifier>UG-EWS-50afc812-8fb6-471c-a4b2-8f3146ce0cb7</identifier>
   <sender>situationroom@opm.go.ug.example</sender>
   <sent>2026-09-01T09:00:00+03:00</sent>
   <status>Exercise</status>
@@ -20,7 +20,7 @@
     <description>Rainfall last month 226 mm. Forecast 46,710 confirmed cases against an epidemic threshold of 30,013 (probability of exceeding 85%). SIMULATED DATA - EXERCISE.</description>
     <instruction>District Health Team: check ACT and RDT stocks, intensify case management and vector control, report weekly.</instruction>
     <area>
-      <areaDesc>Amuru District, Northern Region, Uganda</areaDesc>
+      <areaDesc>Amuru District, Northern, Uganda</areaDesc>
       <polygon>3.5118,32.1558 3.5272,32.1759 3.3739,32.2687 3.2867,32.3574 3.1468,32.2185 3.0532,32.1787 2.9947,32.1764 2.7866,32.2161 2.7295,32.2011 2.7755,32.1018 2.7791,32.0203 2.8003,31.9849 2.7968,31.7474 2.7330,31.7049 2.7330,31.5879 2.7117,31.5454 2.6302,31.4674 2.6173,31.4235 2.6620,31.4196 2.6939,31.4493 2.7525,31.4372 2.7855,31.3928 2.8628,31.3676 2.9555,31.4022 2.9444,31.4435 2.8968,31.4887 2.8691,31.5550 2.9574,31.6251 2.9741,31.7307 3.0362,31.9309 3.1768,31.9815 3.2429,32.0245 3.5596,32.0542 3.5245,32.0930 3.5118,32.1558</polygon>
       <geocode>
         <valueName>UG-DISTRICT</valueName>

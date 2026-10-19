@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-  <identifier>UG-EWS-246015bc-80ca-46e5-80bb-831283c22ae2</identifier>
+  <identifier>UG-EWS-2f395314-dd19-42ee-a068-61de30519e96</identifier>
   <sender>situationroom@opm.go.ug.example</sender>
   <sent>2026-09-01T09:00:00+03:00</sent>
   <status>Exercise</status>
@@ -20,7 +20,7 @@
     <description>Rainfall last month 262 mm. Forecast 24,059 confirmed cases against an epidemic threshold of 26,150 (probability of exceeding 36%). SIMULATED DATA - EXERCISE.</description>
     <instruction>District Health Team: check ACT and RDT stocks, intensify case management and vector control, report weekly.</instruction>
     <area>
-      <areaDesc>Maracha District, Northern Region, Uganda</areaDesc>
+      <areaDesc>Maracha District, Northern, Uganda</areaDesc>
       <polygon>3.1234,30.7634 3.2814,30.8221 3.2887,30.8424 3.3860,30.9049 3.3352,30.9563 3.3204,30.9875 3.3402,31.0125 3.3130,31.0537 3.2146,31.0209 3.1172,30.9158 3.1234,30.7634</polygon>
       <geocode>
         <valueName>UG-DISTRICT</valueName>
